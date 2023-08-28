@@ -144,3 +144,40 @@ header {
     line-height: 35px;
     margin-top: 24px;
 }
+
+/* Offer related styles */
+.offer {
+    margin-bottom: 130px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 100px 0;
+}
+
+.offer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.offer-details {
+    text-align: center;
+}
+
+.offer-details h3 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.offer-details h3 span {
+    color: #E55473;
+}
+
+.offer-details p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    line-height: 30px;
+    max-width: 594px;
+    margin-bottom: 32px;
+}
