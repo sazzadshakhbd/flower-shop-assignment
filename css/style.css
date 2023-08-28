@@ -6,3 +6,37 @@ body {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
 }
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.btn-theme {
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 40px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    border: 0;
+} 
+header {
+    background: rgba(229, 84, 115, 0.10);
+}
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-content h1{
+    font-size: 80px;
+    font-weight: 800;
+    color: #272727;
+    max-width: 730px;
+}
+.banner-content p {
+    margin: 32px 0;
+    color: rgba(39, 39, 39, 0.60);
+    line-height: 30px;
+    font-size: 18px;
+    max-width: 615px;
+}
