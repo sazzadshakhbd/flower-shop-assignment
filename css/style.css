@@ -20,10 +20,26 @@ body {
     font-weight: 700;
     border: 0;
 }
-
+.title {
+    text-align: center;
+    margin-bottom: 48px;
+}
+.title h2 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.title p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    line-height: 30px;
+    max-width: 594px;
+    margin: 24px auto 0 auto;
+}
 /* Header related styles */
 header {
     background: rgba(229, 84, 115, 0.10);
+    margin-bottom: 180px;
 }
 .banner {
     display: flex;
@@ -42,4 +58,46 @@ header {
     line-height: 30px;
     font-size: 18px;
     max-width: 615px;
+}
+/* Features related styles */
+.features {
+    margin-bottom: 130px;
+}
+.features-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 24px;
+}
+.flower {
+    text-align: center;
+}
+.flower a {
+    display: inline-block;
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-transform: capitalize;
+}
+.flower-image {
+    height: 540px;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 300px 300px 0px 0px;
+    width: 465px;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+.bg-flower-6 {
+    background: rgba(167, 33, 98, 0.15);
+}
+.bg-flower-5 {
+    background: rgba(5, 151, 160, 0.15);
+}
+.bg-flower-5 img {
+    margin-bottom: 50px;
+}
+.bg-flower-7 {
+    background: rgba(71, 125, 17, 0.15);
 }
