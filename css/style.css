@@ -192,6 +192,17 @@ header {
     gap: 24px;
 }
 
+/* Flower Expert related styles */
+.flower-expert {
+    margin-bottom: 130px;
+}
+.flower-expert-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 24px;
+}
+
 /* Latest Deal Related Styles */
 .latest-deal {
     margin-bottom: 130px;
