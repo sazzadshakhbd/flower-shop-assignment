@@ -189,4 +189,39 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 24px;
+}
+
+/* Latest Deal Related Styles */
+.latest-deal {
+    margin-bottom: 130px;
+}
+.latest-deal-content {
+    background-image: url('../image/rectangle-9.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.latest-deal p {
+    margin-top: 16px;
+}
+.latest-deal form {
+    margin: 0 auto;
+    width: 865px;
+}
+.latest-deal form input[type="email"] {
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+    border: 0;
+    margin: 0 auto;
+    width: 74%;
+    margin-right: 16px;
+    padding-left: 22px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
 }
