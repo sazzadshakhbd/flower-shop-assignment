@@ -225,3 +225,28 @@ header {
     color: rgba(39, 39, 39, 0.60);
     font-size: 16px;
 }
+/* Footer related styles */
+footer {
+    background: #111010;
+    padding: 130px 0;
+    text-align: center;
+}
+footer h4{
+    color: #E55473;
+font-size: 48px;
+font-weight: 800;
+}
+footer span {
+    color: #fff;
+}
+footer .content {
+    max-width: 625px;
+    margin: 24px auto 32px auto;
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    line-height: 30px;
+}
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+}
